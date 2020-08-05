@@ -71,13 +71,7 @@ Enter No 2:
 
 	n2=Number(document.getElementById("n2").value);
 
-	if(n1>n2){
-		sub=n1-n2;
-	
-
-	}else{
-		sub=n2-n1;
-	}
+	sub=n1-n2;
 
 	document.getElementById("demo").innerHTML="the result is"+" "+sub;
 
